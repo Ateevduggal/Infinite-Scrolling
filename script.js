@@ -16,7 +16,7 @@ const fetchAPI = async () => {
         <div class="fs-5">${Elem.body}</div>
     </div>
   `;
-    container.ṆL("beforeend", htmlData);
+    container.insertAdjacentHTML("beforeend", htmlData);
   });
 };
 fetchAPI();
